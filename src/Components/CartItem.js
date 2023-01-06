@@ -5,7 +5,7 @@ import formatCurrency from "format-currency";
 
 const CartItem = ({ item }) => {
   const { removeItem } = useContext(CartContext);
-  let opts = { format: "%s%v", symbol: "€" };
+  let opts = { format: "%s%v", symbol: "TND" };
   return (
     <li className='CartItem__item'>
       <img src={item.image} alt='' />
